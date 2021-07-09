@@ -10,7 +10,6 @@ var schema = buildSchema(`
   }
 `);
 
-
 var getweekday = async function (args) {
   var date = args.date;
 
